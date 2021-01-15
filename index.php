@@ -16,10 +16,37 @@
 <h1>Concept</h1>
 </section>
 
+<section class="service">
+<h1>Service</h1>
+</section>
 
 
+
+<section class="works">
+<h1>Works</h1></section>
+
+
+<sectopm class="about_me">
 <h1>About me</h1>
+</sectopm>
+
+
+<section class="contact">
+  <h1>Contact</h1>
+  <div class="contact_form">
+    <form action="check.php" method="POST">
+
+    </form>
+  </div>
+
+</section>
+
+
 </main>
+
+
+
+
 
 
 <footer>
