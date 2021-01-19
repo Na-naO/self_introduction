@@ -23,8 +23,14 @@
 
 
 <section class="works">
-<h1>Works</h1></section>
-
+  <h1>Works</h1></section>
+  <div class="card">
+    <img src="img/pexels-pok-rie-4856367.jpg" alt="" class="card_img">
+    <div class="card_content">
+      <h1 class="card_title">ポートフォリオ①</h1>
+      <p class="card_text">最初のポートフォリオ</p>
+    </div>
+  </div>
 
 <sectopm class="about_me">
 <h1>About me</h1>
@@ -52,6 +58,10 @@
 <footer>
 </footer>
   
+
+
+
+
 </body>
 </html>
 
