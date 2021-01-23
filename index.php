@@ -8,6 +8,7 @@
 </head>
 <body>
 <header>
+  <p>ご覧いただきありがとうございます</p>
 </header>
 
 
@@ -33,7 +34,7 @@
   </div>
 
 <sectopm class="about_me">
-<h1>About me</h1>
+  <h1>About me</h1>
 </sectopm>
 
 
@@ -41,7 +42,14 @@
   <h1>Contact</h1>
   <div class="contact_form">
     <form action="check.php" method="POST">
-
+      <p class="contact_message">
+        <span>*</span>
+        は入力が必須です
+      </p>
+      <div class="contact_title">
+        御社名
+      </div>
+      <input type="text" name="contact_office" class="contact_office_name">
     </form>
   </div>
 
