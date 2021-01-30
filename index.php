@@ -9,7 +9,10 @@
 
 <body>
   <header>
-    <p>ご覧いただきありがとうございます</p>
+    <img src="./img/headers_img" alt="ヘッダー画像">
+    <div class="top_page">
+      <p>ご覧いただきありがとうございます</p>
+    </div>
   </header>
 
   <main>
@@ -20,7 +23,6 @@
     <div class="service">
       <h1>Service</h1>
     </div>
-
 
     <div class="works">
       <h1>Works</h1>
