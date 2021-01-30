@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+
+header{
+  width:100%
+  height: 150%;
+}
+
 /* .top_page{
   background-image: url(../img/pexels-tim-mossholder-383640.jpg);
 } */

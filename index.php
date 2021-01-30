@@ -9,7 +9,7 @@
 
 <body>
   <header>
-    <img src="./img/headers_img" alt="ヘッダー画像">
+    <img src="img/pexels-vincent-gerbouin-1168764.jpg" alt="" class="card_img">
     <div class="top_page">
       <p>ご覧いただきありがとうございます</p>
     </div>
