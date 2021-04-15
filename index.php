@@ -9,8 +9,8 @@
 
 <body>
   <header>
-    <img src="img/pexels-vincent-gerbouin-1168764.jpg" alt="" class="card_img">
     <div class="top_page">
+      <img src="img/pexels-vincent-gerbouin-1168764.jpg" alt="" class="header">
       <p>ご覧いただきありがとうございます</p>
     </div>
   </header>
