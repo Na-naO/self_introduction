@@ -9,11 +9,22 @@
 
 <body>
   <header>
-    <div class="top_page">
-      <img src="img/pexels-vincent-gerbouin-1168764.jpg" alt="" class="header">
-      <p>ご覧いただきありがとうございます</p>
-    </div>
+    
   </header>
+  
+
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>ご覧いただきありがとうございます</h1>
+      <p>my portfolio</p>
+
+
+    </div>
+    <!-- <img src="img/pexels-vincent-gerbouin-1168764.jpg" alt="" class="header"> -->
+    
+  </div>
+
+
 
   <main>
     <div class="concept">

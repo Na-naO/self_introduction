@@ -3,11 +3,24 @@
   padding: 0;
 }
 
+/* *** */
 
-.top_page img{
-  width:100%;
-  height:100%;
+
+.top-wrapper{
+  padding: 150px 0 250px 0;
+  background-image: url(../img/pexels-vincent-gerbouin-1168764.jpg);
+  color: goldenrod;
+  background-size: cover;
 }
+
+
+.container{
+  width: 1170px;
+  padding: 0 15ox;
+  margin: 0 auto;
+}
+
+
 
 /* .top_page{
   background-image: url(../img/pexels-tim-mossholder-383640.jpg);
