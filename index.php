@@ -9,7 +9,16 @@
 
 <body>
   <header>
-    
+    <div class="header-container">
+      <div class="header-left">
+        <!-- <img src="" alt=""> -->
+        <h1>Nanae's portfolio</h1>
+      </div>
+      <div class="header-right">
+        <a href="#" class="works">Works</a>
+        <a href="#" class="Contact">Contact</a>
+      </div>
+    </div>
   </header>
   
 
