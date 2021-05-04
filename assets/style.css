@@ -55,12 +55,25 @@ a {
   text-align: center;
 }
 
+.main-wrapper{
+  height: 1000px;
+  padding-bottom: 50px;
+  background-color: wheat;
+}
+
+.skills{
+  padding: 80px 0 40px 0;
+}
+
+.skills-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
 
 
-/* .top_page{
-  background-image: url(../img/pexels-tim-mossholder-383640.jpg);
-} */
-
+.size{
+  font-size:10em;
+}
 
 
 .card{
