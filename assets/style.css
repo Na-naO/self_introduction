@@ -105,3 +105,19 @@ a {
   line-height: 1.5;
   text-align: center;
 }
+
+
+.contact_content{
+  margin-bottom: 30px;
+}
+
+.contact-wrapper{
+  text-align: center;
+}
+
+.message{
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 8px 8px #1a7940;
+}

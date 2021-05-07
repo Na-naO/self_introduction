@@ -97,38 +97,43 @@
     </div>
 
 
-    <div class="contact">
+    <div class="contact-wrapper">
       <h1>Contact</h1>
-      <div class="contact_form">
-        <form action="check.php" method="POST">
-          <p class="contact_message">
-            <span>*</span>
-            は入力が必須です
-          </p>
-          <div class="contact_title">
-            御社名
-            <input type="text" name="contact_office" class="contact_office_name">
-          </div>
+      <div class="heading">
+        <h3>まずはお気軽にご相談ください！</h3>
+        <div class="contact_form">
+          <form action="check.php" method="POST">
+            <!-- <p class="contact_message">
+              <span>*</span>
+              は入力が必須です
+            </p> -->
+            <!-- <div class="contact_title">
+              御社名
+              <input type="text" name="contact_office" class="contact_office_name">
+            </div> -->
 
-          <div class="contact_name">
-            お名前
-            <input type="text" name="name" style="width:100px" class="contact_name">
-          </div>
+            <div class="contact_name">
+              お名前
+              <input type="text" name="name" style="width:100px" class="contact_name">
+            </div>
 
-          <div class="contact_email">
-            Eメールアドレス
-            <input type="text" name="email" style="width:100px">
-          </div>
+            <div class="contact_email">
+              Eメールアドレス
+              <input type="text" name="email" style="width:100px">
+            </div>
 
-          <div class="contact_content">
-            お問い合わせ内容
-            <textarea name="content" cols="40" rows="10"></textarea>
-            <p>まずはお気軽にご相談ください！</p>
-          </div>
-        </form>
+            <div class="contact_content">
+              お問い合わせ内容
+              <textarea name="content" cols="40" rows="10"></textarea>
+            </div>
+          </form>
+          <span class="btn message">send the message</span>
+        </div>
       </div>
     </div>
   </div>
+
+
 
   <footer>
   </footer>
