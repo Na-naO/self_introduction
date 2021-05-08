@@ -136,6 +136,17 @@
 
 
   <footer>
+    <div class="footer-wrapper">
+      <div class="footer-container">
+        <a href="#" class="btn twitter">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="#" class="btn github">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </div>
+      <p><i class="far fa-copyright"></i>Nanae</p>
+    </div>
   </footer>
 
 

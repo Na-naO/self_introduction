@@ -119,5 +119,23 @@ a {
   background-color: #5dca88;
   padding: 15px 40px;
   cursor: pointer;
-  box-shadow: 8px 8px #1a7940;
+  box-shadow: 7px 7px #1a7940;
+}
+
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.footer-wrapper {
+  background-color: #E7D3E2;
+  width: 100%;
+  padding: 15px 0;
+  margin: auto;
+  text-align: center;
+}
+
+.twitter,.github{
+  font-size: 35px;
 }
