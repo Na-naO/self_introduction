@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -8,6 +9,8 @@ a {
 }
 
 header{
+  height: 65px;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -15,15 +18,19 @@ header{
 
 
 .header-container{
+  background-color: thistle;
   height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-left{
+/* .header-left{
   float: left;
-}
+} */
 
 .header-right{
-  float: right;
+  /* float: right; */
   background-color: rgba(238, 234, 20, 0.3);
   display: flex;
   transition: all 0.5s;
@@ -63,6 +70,7 @@ header{
 
 .main-wrapper{
   height: 1000px;
+  /* width: 100%; */
   padding-bottom: 50px;
   background-color: wheat;
 }
@@ -74,14 +82,16 @@ header{
 .skills-wrapper{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
+
 
 
 .size{
   font-size:10em;
 }
 
-
+/* 
 .card{
   width: 200px;
   border-radius: 5px;
@@ -90,7 +100,6 @@ header{
 
 .card_img{
   width: 100%;
-  /* width: 150px; */
   height: 200px;
 }
 
@@ -110,7 +119,7 @@ header{
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-}
+} */
 
 
 .contact_content{
@@ -144,4 +153,20 @@ header{
 
 .twitter,.github{
   font-size: 35px;
+}
+
+
+@media(max-width: 1000px){
+  .skills-wrapper{
+    width:50%;
+  }
+}
+
+@media(max-width: 670px){
+  .skills-wrapper{
+    width: 100%;
+  }
+  .container h1{
+    width: 100%;
+  }
 }
