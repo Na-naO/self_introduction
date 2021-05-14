@@ -13,7 +13,7 @@
     <div class="header-container">
       <div class="header-left">
         <!-- <img src="" alt=""> -->
-        <h1>Nanae's portfolio</h1>
+        <h1>My portfolio</h1>
       </div>
       <div class="header-right">
         <a href="#" class="works">Works</a>
@@ -25,8 +25,8 @@
 
   <div class="top-wrapper">
     <div class="container">
-      <h1>ご覧いただきありがとうございます</h1>
-      <p>my portfolio</p>
+      <h1>Hello. I'm Nanae.</h1>
+      <!-- <p>my portfolio</p> -->
     </div>
   </div>
 
